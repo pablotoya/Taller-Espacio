@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(/assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+}
+
+
+#menu li:nth-child(1){
+    border-bottom: 2px solid white;
+}
+
+
+
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#izquierda #descripcion{
+    margin: 200px;
+    color:white;
+    
+    
+}
+
+#descripcion #text1{
+    margin-bottom: 24px;
+    font-weight: 400;
+    color: gray;
+}
+
+#descripcion #text2{
+    font-size: 107px;
+    margin-bottom: 24px;
+    font-weight: 100;
+    color: white;
+}
+
+
+
+#descripcion p{
+    
+    font-weight: 100;
+    color: gray;
+}
+
+#derecha #buttonderecha{
+    position: absolute;
+    right:200px ;
+    top: 400px;
+    font-size: 25px;
+    border-radius: 100%;
+    border: none;
+    padding:70px 50px;
+    
+}
+
