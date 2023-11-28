@@ -72,11 +72,7 @@ body{
     
 }
 
-#menus li:nth-child(1){
-    border-bottom: 3px solid white; 
-    width: 40px; 
-    margin-right: 50px;
-}
+
 
 #descripcion #h1luna{
     margin-bottom: 29px;

@@ -62,10 +62,7 @@ body{
 
 
 
-#menux .lis:nth-child(1) a {
-    background-color: white;
-    color: black;
-}
+
 
 #descripcion{
     color:rgb(168, 168, 168);
