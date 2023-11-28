@@ -60,27 +60,36 @@ body{
     
 }
 
-#izquierda #menutxt{
+#puntos ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-    border-radius: 100%;
-    font-size: 76px;
-    
     
 }
 
-#menutxt .punto {
-    
-    color:grey;
-    width: 50px;
+.punto {
+   margin-right: 15px;
+     
 }
 
-#menutxt .punto:hover {
-    color: white;
+.punto a {
+    display: inline-block;
+    background-color:gray; 
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 100%; 
+     
 }
 
-#menutxt li:nth-child(1){
-   color: white;  
+.punto a:hover {
+    background-color:white; 
 }
+
+.punto:nth-child(1) a {
+    background-color: white; 
+    color: #fff; 
+}
+
 
 #derecha{
     width: 35%;
