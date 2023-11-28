@@ -2,17 +2,96 @@
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    
+     
 }
 
 body{
-    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    background-image: url("../../assets/technology/background-technology-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 20px;
+     
   
 }
 
 #menu li:nth-child(4){
     border-bottom: 2px solid white;
 }
+
+#cabeza #titulos{
+    width: 45%;
+    display: flex;
+    margin: 50px;
+    color:white;
+    
+}
+
+#titulos #h1titulos{
+    margin-right: 15px;
+    color: grey;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+#menux {
+    list-style: none;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 32px;
+}
+
+#menux .lis {
+    margin-top: 52px;
+}
+
+.lis a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.414);
+    border-radius: 100%;
+    border: 1px solid #484C55;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    
+}
+
+
+
+#menux .lis:nth-child(1) a {
+    background-color: white;
+    color: black;
+}
+
+#descripcion{
+    color:rgb(168, 168, 168);
+    margin-top: 37px ;
+    
+}
+
+#descripcion #h4des{
+    margin-bottom: 12px;
+}
+
+#descripcion #h1des{
+    margin-bottom: 30px;
+    font-size: 55px;
+    color: white;
+}
+
+#descripcion #pp{
+    line-height: 28px;
+    font-size: 19px;
+}
+
+#imginf{
+    width: 50%;
+}
+
+
+
+

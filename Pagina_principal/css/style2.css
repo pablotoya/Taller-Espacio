@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-image: url("../../assets/destination/background-destination-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 20px;
@@ -54,23 +54,28 @@ body{
     list-style: none;
     margin: 155px 0 0 ;
     margin-bottom: 50px;
-    
+     
 }
 
 #menus li a{
     text-decoration: none;
     color: white;
     justify-content: space-between;
-    margin: 0 20px 0  0  ;
-    width: 10px;
+    margin-right: 50px; 
+    
+    
 }
 
 #menus li a:hover{
     border-bottom: 2px solid white;
+    
+    
 }
 
 #menus li:nth-child(1){
-    border-bottom: 3px solid white;  
+    border-bottom: 3px solid white; 
+    width: 40px; 
+    margin-right: 50px;
 }
 
 #descripcion #h1luna{
