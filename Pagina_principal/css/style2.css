@@ -16,3 +16,91 @@ body{
     border-bottom: 2px solid white;
 }
 
+
+#content{
+    display: flex;   
+}
+
+#izquierda{
+    width: 100%;
+    color: white;
+
+    
+}
+
+#izquierda #izquierdatxt{
+    display: flex;
+    margin: 80px ;
+  
+}
+
+#txtnum {
+    margin-right: 15px;
+    color: grey;
+}
+
+#imgluna{
+    margin: 10px;
+    
+}
+
+#derecha{
+    width: 100%;
+    color: white;
+}
+
+#derecha #menus{
+    display: flex;
+    list-style: none;
+    margin: 155px 0 0 ;
+    margin-bottom: 50px;
+    
+}
+
+#menus li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    margin: 0 20px 0  0  ;
+    width: 10px;
+}
+
+#menus li a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menus li:nth-child(1){
+    border-bottom: 3px solid white;  
+}
+
+#descripcion #h1luna{
+    margin-bottom: 29px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+#descripcion #pluna{
+    font-size: 20px;
+    margin-right: 150px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+#hrr{
+    width: 40%;
+    position: absolute;
+    top: 590px;
+    right: 131px;
+    color: rgba(236, 232, 232, 0.788);
+}
+
+#descripcion2 #textos{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    
+}
+.texto .h3txt{
+    color: grey;
+    
+}

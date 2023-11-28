@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body{
+    background-image: url(/assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+  
+}
+
+#menu li:nth-child(3){
+    border-bottom: 2px solid white;
+}
+
+#content{
+    display: flex;
+}
+
+#izquierda {
+    width: 39%;
+    padding: 0 100px;
+}
+
+
+#izquierda #txtitu{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 66px;
+    color: white;
+    
+}
+#txtitu #h1tt{
+    
+    margin-right: 15px;
+    color: gray;
+}
+
+#descripcion #h1des{
+    margin-bottom: 12px;
+    color: gray;
+}
+
+#descripcion #h1desc{
+    margin-bottom: 12px;
+    font-size: 45px;
+    color: white;
+}
+
+#descripcion #pdesc{
+    margin-bottom: 55px;
+    color: #D0D6F9;
+    text-align: justify;
+    line-height: 28px;
+    
+}
+
+#izquierda #menutxt{
+    display: flex;
+    border-radius: 100%;
+    font-size: 76px;
+    
+    
+}
+
+#menutxt .punto {
+    
+    color:grey;
+    width: 50px;
+}
+
+#menutxt .punto:hover {
+    color: white;
+}
+
+#menutxt li:nth-child(1){
+   color: white;  
+}
+
+#derecha{
+    width: 35%;
+}
+
+#derecha #imgdere{
+    margin-top: 66px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
